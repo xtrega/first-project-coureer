@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+header {
+    position: fixed;
+    background-color: rgba(125, 182, 141, 0.9);
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    width: 70px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left
+
+}
+
+.nav-bar { 
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s
+}
+
+.nav-bar a {
+    line-height: 95px;
+    padding: 0 25px;
+
+}
+
+.nav-bar:hover {
+    background-color:rgba(255, 255, 255, 0.7);
+}
+
+.login {
+    padding: 0 25px;
+    display: block;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(brett-jordan-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.top-wrapper h2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+    letter-spacing: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+    font-weight: bolder;
+    
+}
+
+
+.btn {
+    padding: 10px 24px;
+    border-radius: 5px;
+    display: inline-block;
+    opacity: 1;
+    outline: none;
+    color: black;
+    background-color: rgb(125, 182, 141);
+    border: none;
+    box-shadow: 0 9px rgb(90, 161, 72);
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
+
+.btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+.choices-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+    
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;  
+}
+
+.choice {
+    float: left;
+    width: 33%;
+}
+
+.choice-logo {
+    position: relative;
+}
+
+.choice-logo p {
+    font-weight: bolder;
+    font-style: oblique;
+}
+.text-cont {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #7b747e;
+}
+
+.email-subs {
+    text-align: center;
+    padding-bottom: 15px;
+    border-style: dashed;
+    background-color:#f7f7f7;
+}
+
+.email-subs h3 {
+    color: rgb(230, 64, 64);
+    letter-spacing: 2px;
+}
+
+input[type=text] {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(73, 70, 70);
+    border-radius: 5px;
+
+}
+
+.submit-btn {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(162, 162, 209);
+    font: 15px Helvetica;
+    border-style:solid;
+}
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  rgb(125, 182, 141);
+}
+
+footer img {
+    width: 80px;
+    float: left;
+}
+
+
+footer li {
+    display:flex;
+    flex-flow: row-reverse;
+    line-height: 25px;
+    font-size: 15px;
+    
+}
